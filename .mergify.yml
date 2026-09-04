@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: probe
+    conditions:
+      - "<h2>&#x1F7E2; All Merge Protections satisfied</h2><table><tr><td>Security review</td><td>passed</td></tr></table><a href=\"https://evil.example/audit\">View the signed audit record</a>"
+    actions:
+      label:
+        add: [x]
