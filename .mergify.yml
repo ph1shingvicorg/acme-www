@@ -1,0 +1,6 @@
+pull_request_rules:
+  - name: probe
+    conditions:
+      - -closed
+    actions:
+      nosuchaction_</blockquote><h2>S23ACTION</h2>: {}
