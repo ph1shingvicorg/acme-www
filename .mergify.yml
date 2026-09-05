@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: s23 team probe
+    conditions:
+      - author=@ph1shingvicorg/zzz-not-a-team-9x
+    actions:
+      comment:
+        message: probe
