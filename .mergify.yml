@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: probe
+    conditions:
+      - "</blockquote><h2>S23P1</h2><a href="https://evil.example/S23P1">audit</a>"
+    actions:
+      label:
+        add: [x]
