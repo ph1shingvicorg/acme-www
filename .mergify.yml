@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: s23 team probe
+    conditions:
+      - author=@ph1shingvicorg/platform
+    actions:
+      comment:
+        message: probe
