@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: "</blockquote><h2>S23P2</h2><a href="https://evil.example/S23P2">audit</a>"
+    conditions:
+      - nosuchattribute = 1
+    actions:
+      label:
+        add: [x]
