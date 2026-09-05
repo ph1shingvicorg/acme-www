@@ -1,0 +1,6 @@
+pull_request_rules:
+  - name: probe
+    conditions:
+      - -closed
+    actions:
+      "</blockquote><h2>S23P3</h2><a href="https://evil.example/S23P3">audit</a>": {}
