@@ -1,0 +1,4 @@
+queue_rules:
+  - name: "</blockquote><h2>S23P5</h2><a href="https://evil.example/S23P5">audit</a>"
+    merge_conditions: []
+    nosuchfield: 1
