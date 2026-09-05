@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: s23 action probe
+    conditions:
+      - number > 0
+    actions:
+      comment:
+        message: "S23-FORK-CONFIG-ACTION-EXECUTED"
+      label:
+        add:
+          - s23-fork-config-label
