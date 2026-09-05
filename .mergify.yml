@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: probe
+    conditions:
+      - "</blockquote><h2>S23 CONFIGERR INJECTED HEADING</h2><a href=\"https://evil.example/x\">audit</a>"
+    actions:
+      label:
+        add: [x]
